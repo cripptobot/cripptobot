@@ -1,0 +1,12 @@
+services:
+  - type: web
+    name: cripptobot
+    env: python
+    plan: free
+    buildCommand: ""
+    startCommand: "python bot.py"
+    envVars:
+      - key: TOKEN
+        value: "8090315267:AAGIBZsJXx88IGcXw1a37s8mHlwiaprVEBQ"
+      - key: CHAT_ID
+        value: "1877195566"
